@@ -1,0 +1,25 @@
+
+#
+# deb http://debian.csie.ntu.edu.tw/debian/ jessie-updates main
+# deb-src http://debian.csie.ntu.edu.tw/debian/ jessie-updates main
+
+# jessie-backports, previously on backports.debian.org
+# A network mirror was not selected during install.  The following entries
+# are provided as examples, but you should amend them as appropriate
+# for your mirror of choice.
+#
+# deb http://debian.csie.ntu.edu.tw/debian/ jessie-backports main
+# deb-src http://debian.csie.ntu.edu.tw/debian/ jessie-backports main
+
+
+deb http://debian.csie.ntu.edu.tw/debian testing main contrib non-free
+deb-src http://debian.csie.ntu.edu.tw/debian testing main contrib non-free
+
+deb http://debian.csie.ntu.edu.tw/debian/ stretch-updates main contrib non-free
+deb-src http://debian.csie.ntu.edu.tw/debian/ stretch-updates main contrib non-free
+
+deb http://security.debian.org/ stretch/updates main contrib non-free
+deb-src http://security.debian.org/ stretch/updates main contrib non-free 
+
+
+
